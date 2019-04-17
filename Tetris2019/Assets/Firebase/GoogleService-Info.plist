@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>464002756328-p2lqaqkt7pp9gfl031rch6rsot3ro4ka.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.464002756328-p2lqaqkt7pp9gfl031rch6rsot3ro4ka</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDXCWkiVsow4iWTzRWJLaD00XglWmJBkI4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>464002756328</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Weeabosia.Tetris2019</string>
+	<key>PROJECT_ID</key>
+	<string>tetris2019</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tetris2019.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:464002756328:ios:a70a3499cf783380</string>
+	<key>DATABASE_URL</key>
+	<string>https://tetris2019.firebaseio.com</string>
+</dict>
+</plist>
