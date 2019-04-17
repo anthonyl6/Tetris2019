@@ -1,0 +1,2 @@
+libFirebaseCppApp-5.6.1 filter=lfs diff=lfs merge=lfs -text
+Tetris2019/Assets/Plugins/x86_64/Firebase/libFirebaseCppApp-5.6.1.so filter=lfs diff=lfs merge=lfs -text
