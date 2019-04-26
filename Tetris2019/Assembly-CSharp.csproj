@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\Authentication\Register.cs" />
      <Compile Include="Assets\Scripts\MainMenu\Logout.cs" />
      <Compile Include="Assets\Scripts\MainMenu\NameText.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\SceneLoader.cs" />
      <Compile Include="Assets\Scripts\MainMenu\UserStateChange.cs" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-analytics-unity\maven-metadata.xml" />

@@ -14,7 +14,7 @@ public class NameText : MonoBehaviour
     // Update is called once per frame
     void Start()
     {
-        text = FindObjectOfType<Text>();
+        text = GetComponent<Text>();
         auth = FirebaseAuth.DefaultInstance;
         user = auth.CurrentUser;
 

@@ -13,7 +13,7 @@ public class AuthStateChanged : MonoBehaviour
     [SerializeField] GameObject displayNameGroup;
     [SerializeField] InputField displayNameInputField;
 
-    //caches references
+    //cached references
     FirebaseAuth auth;
     FirebaseUser user;
     string displayName;
@@ -51,7 +51,7 @@ public class AuthStateChanged : MonoBehaviour
                 if(displayName == ""){
                     displayNameGroup.SetActive(true);
                 } else {
-                    SceneManager.LoadScene("MainMenu");
+                    this.GetComponent<SceneLoader>().LoadNextScene();
                 }
             }
         }
