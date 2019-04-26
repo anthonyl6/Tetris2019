@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using Firebase;
 using Firebase.Auth;
 
-public class UserStateChange : MonoBehaviour
+public class AuthStateChanged : MonoBehaviour
 {
 
     //Panel
@@ -46,9 +47,11 @@ public class UserStateChange : MonoBehaviour
                 Debug.Log("Signed in " + user.UserId);
                 displayName = user.DisplayName ?? "";
                 emailAddress = user.Email ?? "";
-
+            
                 if(displayName == ""){
                     displayNameGroup.SetActive(true);
+                } else {
+                    SceneManager.LoadScene("MainMenu");
                 }
             }
         }
@@ -71,6 +74,7 @@ public class UserStateChange : MonoBehaviour
                     Debug.LogError("UpdateUserProfileAsync encountered an error: " + task.Exception);
                     return;
                 }
+                
                 Debug.Log("User profile updated successfully.");
                 Debug.Log(user.DisplayName);
             });

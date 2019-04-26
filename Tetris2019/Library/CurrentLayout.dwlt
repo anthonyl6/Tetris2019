@@ -111,10 +111,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 881, y: 344}
-  m_MaxSize: {x: 16006, y: 8044}
+  m_MinSize: {x: 887, y: 344}
+  m_MaxSize: {x: 16012, y: 8044}
   vertical: 0
-  controlID: 1477
+  controlID: 58
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,10 +136,10 @@ MonoBehaviour:
     y: 0
     width: 1503
     height: 947
-  m_MinSize: {x: 606, y: 344}
-  m_MaxSize: {x: 12006, y: 8044}
+  m_MinSize: {x: 610, y: 344}
+  m_MaxSize: {x: 12010, y: 8044}
   vertical: 1
-  controlID: 1478
+  controlID: 59
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,10 +162,10 @@ MonoBehaviour:
     y: 0
     width: 1503
     height: 486
-  m_MinSize: {x: 606, y: 222}
-  m_MaxSize: {x: 12006, y: 4022}
+  m_MinSize: {x: 610, y: 222}
+  m_MaxSize: {x: 12010, y: 4022}
   vertical: 0
-  controlID: 1427
+  controlID: 60
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -238,8 +238,8 @@ MonoBehaviour:
     y: 0
     width: 1097
     height: 486
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 222}
+  m_MaxSize: {x: 4004, y: 4022}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -291,8 +291,8 @@ MonoBehaviour:
     y: 0
     width: 417
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 72}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -345,7 +345,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 0
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -358,18 +358,18 @@ MonoBehaviour:
       y: 17
       width: 1095
       height: 450
-    m_Scale: {x: 0.41666666, y: 0.41666666}
-    m_Translation: {x: 547.5, y: 225}
+    m_Scale: {x: 0.5373289, y: 0.5373289}
+    m_Translation: {x: 547.5, y: 201.41956}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1314
-      y: -540
-      width: 2628
-      height: 1080
+      x: -1018.929
+      y: -374.8534
+      width: 2037.858
+      height: 837.4759
     m_MinimalGUI: 1
   m_defaultScale: 0.41666666
   m_TargetTexture: {fileID: 0}
@@ -408,9 +408,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: fe280000
+      m_SelectedIDs: 402a0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 8efbffffc62d0000f02d00008e2e0000
+      m_ExpandedIDs: ea89ffffda8bffffe48dffff6893ffff9c93ffffb499fffffea4ffff56acffffb4bdffff00c1ffff2ccdffff8efbfffff4ffffffc62d0000f02d0000965300004654000070540000265500006e5c000030610000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -505,9 +505,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.045294113, y: -0.0024001927, z: 0.00010898003, w: -0.99897087}
   m_Size:
-    m_Target: 1009.1874
+    m_Target: 3634.797
     speed: 2
-    m_Value: 1009.1874
+    m_Value: 3634.797
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -596,20 +596,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\aglor\Documents\Unity Projects\Tetris\Tetris2019
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 062d0000
-    m_LastClickedID: 11526
-    m_ExpandedIDs: 000000000c2a000000ca9a3b
+    m_SelectedIDs: 7a2a0000
+    m_LastClickedID: 10874
+    m_ExpandedIDs: 000000000c2a0000062d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -637,7 +637,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000c2a000000ca9a3b
+    m_ExpandedIDs: 000000000c2a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -662,9 +662,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: fe280000
-    m_LastClickedInstanceID: 10494
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 402a0000
+    m_LastClickedInstanceID: 10816
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
